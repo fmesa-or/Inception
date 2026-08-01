@@ -52,7 +52,7 @@ comparison between:
 - **Compiler**: ``
 - **Standard**: ``
 - **Compilation Flags**: ``
-- **OS**: Linux
+- **VM_OS**: Debian 12.15
 
 ### Compilation
 <!--
