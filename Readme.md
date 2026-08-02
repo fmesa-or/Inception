@@ -126,8 +126,8 @@ inception/
 - [The Only Docker Tutorial You Need To Get Started](https://www.youtube.com/watch?v=DQdB7wFEygo)
 - [Inception - 42 Common Core](https://www.youtube.com/watch?v=wGJFx-H6KX8)
 - [Docker Crash Course for Absolute Beginners [NEW]](https://www.youtube.com/watch?v=pg19Z8LL06w)
+- [42Kocaeli Inception Projesi](https://www.youtube.com/watch?v=BjbhxtUjkhg)
 <!--
-- []()
 - []()
 - []()
 - []()
