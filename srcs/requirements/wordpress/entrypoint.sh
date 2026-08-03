@@ -29,6 +29,14 @@ EOF
     chown www-data:www-data /var/www/html/wp-config.php
 fi
 
+# Wait for MariaDB to be reachable before running WP CLI commands.
+for i in $(seq 30); do
+    if wp db check --path=/var/www/html --allow-root >/dev/null 2>&1; then
+        break
+    fi
+    sleep 1
+done
+
 # If WP is not installed yet, install it with specific parameters
 if ! wp core is-installed --path=/var/www/html --allow-root; then
 	wp core install \
