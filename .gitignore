@@ -1,0 +1,11 @@
+.DS_Store
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# End of macOS ignores
