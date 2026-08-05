@@ -1,3 +1,5 @@
+name: inception
+
 services:
   nginx:
     container_name: nginx_container
@@ -61,13 +63,3 @@ volumes:
 networks:
   inception:
     driver: bridge
-
-
-# BEFORE: WORK WITHOUT LOCAL VOLUMES
-# volumes:
-#   wordpress_files:
-#   mariadb_data:
-
-# networks:
-#   inception:
-#     driver: bridge
